@@ -1,15 +1,65 @@
-# EDD
+# Real-Time Eye Direction Tracking System
 
-This repository contains a Python project for eye tracking and event detection.
+A real-time eye tracking application built using Python, OpenCV, and MediaPipe Face Mesh.
 
-## Files
+## Features
 
-- `edd.py` - main script
-- `eye_data.csv` - sample data
-- `test_mp.py` - test script
+- Real-time iris tracking
+- Eye direction detection
+  - Left
+  - Right
+  - Up
+  - Down
+  - Center
+- Live X/Y movement graphs
+- Video recording
+- CSV data logging
+- Noise smoothing for stable detection
 
-## Usage
+## Technologies Used
 
-1. Create a Python virtual environment
-2. Install dependencies
-3. Run `python edd.py`
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Eye-Tracking-System.git
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run
+
+```bash
+python eye_tracking.py
+```
+
+## Controls
+
+| Key | Action |
+|------|--------|
+| R | Start/Stop Recording |
+| Q | Quit |
+| ESC | Quit |
+
+## Output
+
+- Recorded dashboard videos (.mp4)
+- Eye movement CSV data
+- Live movement graphs
+
+## Future Improvements
+
+- Blink detection
+- Head pose estimation
+- Cursor control
+- Machine learning-based gaze estimation
